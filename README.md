@@ -42,6 +42,12 @@ require("dotenv").config();
 3.heroku create
 创建一个项目,相当与在heroku建立了一个服务器
 heroku网页端setting中修改创建的服务器的名字，方便日后查看回忆 deploy中按照步骤传代码到heroku就可以了
+
+git init
+heroku git:remote -a *******(**代表你创建的仓库)
+git add .
+git commit -am "make it better"
+git push heroku master
 ~~~
 
 
