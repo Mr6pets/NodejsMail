@@ -50,5 +50,17 @@ git commit -am "make it better"
 git push heroku master
 ~~~
 
+记录些问题：
 
+本项目的server.js文件中
+
+~~~js
+user: '1********9@qq.com',//用了环境变量下的邮箱
+pass: "**********"//用了环境变量下的密码
+请使用自己的有限和邮箱的IMAP/SMTP服务
+~~~
+
+
+
+这里部署好了之后无法访问地址，看了下应该是小问题，这里做个记录，稍后改动下
 

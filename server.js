@@ -80,7 +80,7 @@ app.post('/retrievePwd', (req, res) => {
           // user: process.env.EMAIL,//用了环境变量下的邮箱
           // pass: process.env.PASSWORD//用了环境变量下的密码
 
-          user: '1761330769@qq.com',//用了环境变量下的邮箱
+          user: '1********9@qq.com',//用了环境变量下的邮箱
           pass: "igekqkvicqqnhhbi"//用了环境变量下的密码
         }
       });
